@@ -1,10 +1,10 @@
 #include "holberton.h"
 /**
- * main - entry block
+ * print_alphabet - entry block
  * @void: no argument
- * Return: 0 (Sucess)
+ *
 **/
-int main(void)
+void print_alphabet(void)
 {
 int i;
 for (i = 'a'; i <= 'z'; i++)
