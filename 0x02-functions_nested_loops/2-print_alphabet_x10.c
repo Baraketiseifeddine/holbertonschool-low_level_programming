@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * main - entry block
+ * print_alphabet_x10 - use only user defined variables
  * @void: no argument
  *
 **/
@@ -11,7 +11,7 @@ for (i = 0; i < 10; i++)
 {
 for (j = 'a'; j <= 'z'; j++)
 {
-_putchar (j);   
+_putchar (j);
 }
 _putchar ('\n');
 }
