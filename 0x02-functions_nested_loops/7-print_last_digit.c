@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
  * print_last_digit - use only user defined variables
- * @x: is variable
+ *
  * @n: is variable
  * Return: 0
 **/
