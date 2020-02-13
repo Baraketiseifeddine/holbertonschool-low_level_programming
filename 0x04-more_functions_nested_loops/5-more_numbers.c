@@ -15,7 +15,7 @@ for (j = 0; j <= 14; j++)
 {
 d = j / 10;
 m = j % 10;
-if ( j > 9)
+if (j > 9)
 _putchar (d + '0');
 _putchar (m + '0');
 }
