@@ -1,9 +1,9 @@
 #include "holberton.h"
- /**
- * print_most_numbers - use only user defined variables
- *
- *
- * Return: 0
+/**
+* print_most_numbers - use only user defined variables
+*
+*
+*
 **/
 void print_most_numbers(void)
 {
