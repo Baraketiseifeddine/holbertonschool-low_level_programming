@@ -1,27 +1,17 @@
 #include "holberton.h"
 #include <string.h>
-#include <stdio.h>
 /**
  * print_rev - pointers to 98
- *
+ * @s: chaine
  * Return: Always 0.
  */
 void print_rev(char *s)
 {
-   int length, c;
-    char *begin, *end, temp;
-    length = strlen(s);
-    begin = s;
-    end = s;
- 
-    for (c = 0; c < length - 1; c++)
-        end++;
- 
-    for (c = 0; c < length/2; c++) { 
-        temp = *end;
-        *end = *begin;
-        *begin = temp;
- 
-        begin++;
-        end--; 
-}}
+
+int i, j = 0, len = 0;
+for (i = 0; s[i] != '\0'; i++)
+len = i + 1;
+for (j = len - 1; j >= 0 ; j--)
+_putchar (s[j]);
+_putchar ('\n');
+}
