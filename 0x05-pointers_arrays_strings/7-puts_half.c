@@ -11,7 +11,7 @@ int i, n, len;
 for (i = 0; str[i] != '\0'; i++)
 len = i + 1;
 if (len % 2 != 0)
-for (n = (len - 1) / 2; str[n] != '\0'; n++)
+for (n = ((len - 1) / 2) + 1; str[n] != '\0'; n++)
 {
 _putchar (str[n]);
 }
